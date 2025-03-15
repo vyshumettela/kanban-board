@@ -1,0 +1,44 @@
+/* src/styles/global.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a modern font and background */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #7190e4, #01050a);
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  /* Add a subtle animation to the page */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Style for the main heading */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #010203;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add a smooth transition for hover effects */
+  * {
+    transition: all 0.3s ease;
+  }

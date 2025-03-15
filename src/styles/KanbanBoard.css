@@ -1,0 +1,55 @@
+/* src/styles/KanbanBoard.css */
+
+/* Container for the Kanban board */
+.kanban-board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #722b2b;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  /* Individual columns */
+  .kanban-column {
+    width: 22%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #c01b1b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .kanban-column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Column headers */
+  .kanban-column h2 {
+    color: #060216;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .kanban-board {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .kanban-column {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }

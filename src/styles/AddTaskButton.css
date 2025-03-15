@@ -1,0 +1,60 @@
+/* src/styles/AddTaskButton.css */
+
+/* Add Task button */
+.add-task-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #283d52;
+    color: #5f8c97;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-task-button:hover {
+    background-color: #2a2b2c;
+    transform: scale(1.1);
+  }
+  
+  /* Dialog styles */
+  .add-task-dialog {
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-task-dialog h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-dialog input,
+  .add-task-dialog textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .add-task-dialog button {
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-task-dialog button:hover {
+    background-color: #536983;
+  }
