@@ -27,4 +27,11 @@ npm install
 
 npm run dev
 
-Open http://localhost:5173/ in your browser to view the app
+Contact
+For any questions or feedback, feel free to reach out:
+
+Name: Sai Vyshnavi Mettela
+
+Email: saivyshnavi1632@gmail.com
+
+GitHub: vyshumettela
