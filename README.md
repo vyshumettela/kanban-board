@@ -16,7 +16,7 @@ Installation & Setup
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/kanban-board.git
+git clone https://github.com/vyshumettela/kanban-board.git
 cd kanban-board
 
 2️⃣ Install Dependencies
